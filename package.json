@@ -1,13 +1,22 @@
-{
+﻿{
   "name": "freepresspass",
   "version": "1.0.0",
+  "private": true,
   "description": "Free Press Pass Generator with Stripe Integration",
-  "main": "index.js",
   "scripts": {
-    "test": "echo &quot;Error: no test specified&quot; && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "stripe": "^14.4.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.1.0"
   },
   "keywords": ["press-pass", "journalism", "first-amendment"],
   "author": "Constitutional Press Association",
